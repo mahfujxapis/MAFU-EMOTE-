@@ -1,12 +1,11 @@
-Flask>=3.0.0
-gunicorn>=21.0.0
-requests>=2.31.0
-protobuf==3.20.3
+flask
+requests
+protobuf
 protobuf-decoder
-aiohttp>=3.9.0
-pyjwt>=2.8.0
+aiohttp
+pyjwt
 pytz
 psutil
 cfonts
-pycryptodome==3.20.0
-urllib3<2.0.0  # Optional: only if deploying on older legacy systems
+pycryptodome
+urllib3
